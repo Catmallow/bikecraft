@@ -27,10 +27,9 @@
   padding: 16px 0;
   font-size: 18px;
   position: relative;
-<<<<<<< HEAD
-=======
+
   /*background-color: #b3d4fc;*/
->>>>>>> 1d572012531e77058eeb0c36adbc46620b2879e9
+
 }
 
 .header-menu a:after {
@@ -48,7 +47,6 @@
   transition: 0.3s;
 }
 
-<<<<<<< HEAD
 @media (max-width: 600px) {
   .header-menu {
     gap: 12px;
@@ -65,7 +63,7 @@
   }
 
 }
-=======
+
 .introducao-bg {
   background: #000000;
   color: #ffffff;
@@ -122,5 +120,3 @@
   font-family: 'Roboto';
   font-weight: 400;
 }
-
->>>>>>> 1d572012531e77058eeb0c36adbc46620b2879e9

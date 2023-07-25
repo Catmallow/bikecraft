@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import "global.css";
 @import "header.css";
 @import "introducao.css";
@@ -6,7 +6,7 @@
 @import "css/components";
 
 
-=======
+
 @import "reset.css";
 @import "global.css";
 @import "header.css";
@@ -42,4 +42,4 @@
       display: none;
     }
   }
->>>>>>> 1d572012531e77058eeb0c36adbc46620b2879e9
+
