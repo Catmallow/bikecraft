@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "global.css";
 @import "header.css";
 @import "introducao.css";
@@ -5,3 +6,40 @@
 @import "css/components";
 
 
+=======
+@import "reset.css";
+@import "global.css";
+@import "header.css";
+@import "home/introducao.css";
+@import "utilidades/componentes.css";
+
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: #111111;
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #ffffff;
+
+  }
+}
+  @media (max-width: 600px) {
+    .header-menu {
+      gap: 12px;
+    }
+
+    .header-menu a {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+
+    .header a:after {
+      display: none;
+    }
+  }
+>>>>>>> 1d572012531e77058eeb0c36adbc46620b2879e9
