@@ -12,7 +12,7 @@ img  {
 }
 
 img [src$='.jpg'] {
-  border-radius: 4px;
+  border-radius: 12px;
 
 }
 

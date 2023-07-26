@@ -9,18 +9,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  /*box-sizing: border-box;*/
+  /*max-width: 1200px;*/
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+
+}
+.introducao h2 {
 
 }
 
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 200px;
+  /*padding-left: 100px;*/
+  /*padding-right: 100px;*/
 
 }
 
@@ -31,7 +36,7 @@
 
 }
 
-.introducao h1 {
+.introducao h1,.bicicleta-lista h2 {
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
@@ -40,7 +45,7 @@
 }
 
 .introducao h1 span {
-  color:var(--cor-p1);
+  color: var(--cor-p1);
 }
 
 .introducao p {
@@ -92,6 +97,7 @@
 
   .introducao-conteudo {
     padding-bottom: 0;
+
   }
 
   .introducao img {
