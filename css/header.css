@@ -1,5 +1,11 @@
+.header-icone {
+}
+
 .header-bg {
   background-color: #000000;
+  /*background-color: mediumaquamarine;*/
+  width: 100%;
+  justify-content: space-between;
 }
 
 .header {
@@ -117,4 +123,13 @@
   color: var(--cor-5);
   font-family: 'Roboto';
   font-weight: 400;
+}
+
+@media (min-width: 900px) {
+  .header-bg {
+    justify-content: space-between;
+
+
+    /*background-color: palevioletred;*/
+  }
 }
